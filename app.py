@@ -1214,13 +1214,23 @@ elif tab_choice == "🎬 Video Bahan/Materi":
     </div>
     """, unsafe_allow_html=True)
 
-    col1, col2 = st.columns(2)
-    with col1:
-        st.markdown("#### 📹 Video 1 — Pengenalan & Pemodelan SPLTV")
-        st.video("https://youtu.be/4Z42DpGAFHI")
-    with col2:
-        st.markdown("#### 📹 Video 2 — Metode Eliminasi & Substitusi SPLTV")
-        st.video("https://youtu.be/2cLCTJCyb5M")
+    st.markdown("""
+    <div class="fase-box" style="border-color:#ED7D31;background:#FFF4EC;">
+        <div class="fase-label" style="color:#ED7D31;">Video 1 — Pengenalan & Pemodelan SPLTV</div>
+        <div class="fase-text">Memahami konsep dasar SPLTV dan cara membuat model matematika dari masalah nyata.</div>
+    </div>
+    """, unsafe_allow_html=True)
+    st.video("https://youtu.be/e_6G6lbEPBE?si=t_mQjKaDkmDdjhLG")
+
+    st.markdown("")
+
+    st.markdown("""
+    <div class="fase-box" style="border-color:#ED7D31;background:#FFF4EC;">
+        <div class="fase-label" style="color:#ED7D31;">Video 2 — Metode Eliminasi & Substitusi SPLTV</div>
+        <div class="fase-text">Langkah demi langkah penyelesaian SPLTV menggunakan metode eliminasi dan substitusi.</div>
+    </div>
+    """, unsafe_allow_html=True)
+    st.video("https://youtu.be/0ad_iTcUAFU?si=Y_B1SvVVnMDs4pHL")
 
     st.markdown("---")
     st.markdown("""
